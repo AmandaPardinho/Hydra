@@ -3,8 +3,6 @@ body{
 }
 
 .container{
-    border: 1px solid blue;
-
     height: 100%;
     width: 100%;
     color: white;
@@ -85,4 +83,11 @@ textarea{
 .text-box{
     background: black;
     color: white;    
+}
+
+#meme-list{
+    width: 100%;
+    font-size: large;
+    font-family: sans-serif;
+    color: black;    
 }
