@@ -1,5 +1,18 @@
+body{
+    background: rgb(0, 0, 0);
+}
+
 .container{
     border: 1px solid blue;
-    height: 10px;
+
+    height: 100%;
     width: 100%;
+}
+
+.app{
+    border: 2px solid rgba(215, 215, 215, 0.412); /*último parâmetro indica a transparência*/
+    border-radius: 10px; /*borda arredondada*/
+    height: 100px;
+    background-color: #24282B;
+
 }
