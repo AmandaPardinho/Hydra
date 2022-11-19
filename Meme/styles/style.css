@@ -81,3 +81,8 @@ textarea{
     padding: 10px;
     background-color: orange;
 }
+
+.text-box{
+    background: black;
+    color: white;    
+}
