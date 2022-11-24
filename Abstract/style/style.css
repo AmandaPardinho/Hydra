@@ -48,7 +48,11 @@
 
 .purple-stripe{
     background-color: #dadbf1;
-    font-size: 2.0rem;
+    font-size: 2.1rem;
+    text-align: center;
+    content: 2rem;
+    padding: 5rem 1rem 7rem 1rem;
+    border: 5rem;
 
     
 }
