@@ -1,15 +1,24 @@
+@font-face{
+    font-family: gt-america-standard-regular;
+    src: url('./assets/font/gt-america-standard-regular.ttf');
+}
+
+.all-content{
+    font-family: 'gt-america-standard-regular', sans-serif;
+}
+
 .menu{
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255); 
 }
 
 .image-menu{
-    background-color: rgba(255, 255, 255, 01);
+    background-color: rgba(255, 255, 255, 01);    
 }
 
 .purple-stripe{
     background-color: #dadbf1;
-    font-family: 'GT America Standard', sans-serif;
+    
 }
 
 .footer-container{
