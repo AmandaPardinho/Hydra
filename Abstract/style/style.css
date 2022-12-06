@@ -68,3 +68,7 @@
     height: 2.5rem;
     border-radius: 0.7rem;
 }
+
+.mobile-btn-blue{
+    background-color: blue;
+}
