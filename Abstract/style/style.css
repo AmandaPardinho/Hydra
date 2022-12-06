@@ -71,4 +71,11 @@
 
 .mobile-btn-blue{
     background-color: blue;
+    width: 5rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    
+    color: rgb(255, 255, 255);
+    border-radius: 0.3rem;
+
 }
