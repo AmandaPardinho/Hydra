@@ -21,7 +21,6 @@
 
 .homepage{
     color: rgb(255, 255, 255);
-    
 }
 
 .homepage:hover{
@@ -44,7 +43,13 @@
     text-decoration: underline;
 }
 
+.btn-gray{
 
+}
+
+.btn-blue{
+    
+}
 
 .purple-stripe{
     background-color: #dadbf1;
@@ -53,8 +58,6 @@
     content: 2rem;
     padding: 5rem 1rem 7rem 1rem;
     border: 5rem;
-
-    
 }
 
 .footer-container{
@@ -70,12 +73,10 @@
 }
 
 .mobile-btn-blue{
-    background-color: blue;
+    background-color: rgb(76, 95,213);
     width: 5rem;
     height: 3rem;
-    font-size: 1.5rem;
-    
+    font-size: 1.1rem;    
     color: rgb(255, 255, 255);
-    border-radius: 0.3rem;
-
+    border-radius: 1.75rem;
 }
