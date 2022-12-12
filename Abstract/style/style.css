@@ -58,7 +58,11 @@
 .btn-blue{
     background-color: rgb(76, 95,213);
     color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    font-weight: 100;
     display: block;
+    width: 15rem;
+    height: 2.5rem;
 }
 
 .purple-stripe{
