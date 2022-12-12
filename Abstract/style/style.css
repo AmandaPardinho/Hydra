@@ -59,10 +59,10 @@
     font-size: 1.5rem;
     font-weight: 100;
     border: 0.1rem solid rgb(255, 255, 255);
-    border-radius: 0.5rem;
+    border-radius: 0.4rem;
     display: inline;
-    width: 15rem;
-    height: 2.5rem;
+    width: 14rem;
+    height: 2rem;
 }
 
 .btn-blue{
