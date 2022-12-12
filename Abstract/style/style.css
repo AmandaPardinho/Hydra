@@ -44,11 +44,21 @@
 }
 
 .btn-gray{
-
+    background-color: rgb(25, 26, 27);
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    font-weight: 100;
+    border-style: ;
+    border-color: rgb(255, 255, 255);
+    display: block;
+    width: 15rem;
+    height: 2.5rem;
 }
 
 .btn-blue{
-    
+    background-color: rgb(76, 95,213);
+    color: rgb(255, 255, 255);
+    display: block;
 }
 
 .purple-stripe{
