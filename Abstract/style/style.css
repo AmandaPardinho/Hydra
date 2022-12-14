@@ -47,6 +47,9 @@
     text-decoration: none;
     font-size: 1.5rem;
     display: inline;
+    margin: 5rem;
+    padding: 1rem;
+    border: 1rem solid white;
 }
 
 .help-page:visited{
@@ -69,6 +72,7 @@
     display: inline;
     width: 14rem;
     height: 2rem;
+    -moz-box-align: end;
 }
 
 .btn-blue{
