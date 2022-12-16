@@ -25,10 +25,12 @@
 .homepage{
     color: rgb(255, 255, 255);
     font-size: 1.5rem;
-    display: b;
-    margin: 5rem;
-    padding: 1rem;
-    border: 1rem solid white;
+    display: block;
+    margin-left: 5rem;
+    margin-right: 0.3rem;
+    padding: 0.5rem;
+    border: 0.2rem solid white;
+    width: 7rem;
 }
 
 .homepage:hover{
@@ -39,14 +41,14 @@
 .pipe{
     color: rgb(255, 255, 255);
     font-size: 1.5rem;
-    display: inline;    
+    display: block;    
 }
 
 .help-page{
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: 1.5rem;
-    display: inline;
+    display: block;
     margin: 5rem;
     padding: 1rem;
     border: 1rem solid white;
