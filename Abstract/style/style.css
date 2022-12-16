@@ -27,7 +27,7 @@
     font-size: 1.5rem;
     display: block;
     margin-left: 5rem;
-    margin-right: 0.3rem;
+    margin-right: 3rem;
     padding: 0.5rem;
     border: 0.2rem solid white;
     width: 7rem;
@@ -41,7 +41,12 @@
 .pipe{
     color: rgb(255, 255, 255);
     font-size: 1.5rem;
-    display: block;    
+    display: block; 
+    margin-left: 12rem;
+    margin-right: 0.3rem;
+    padding: 0.5rem;
+    border: 0.2rem solid white;
+    width: 2rem;   
 }
 
 .help-page{
