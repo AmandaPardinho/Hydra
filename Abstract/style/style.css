@@ -22,6 +22,10 @@
     border-radius: 0.7rem;   
 }
 
+.fa-light fa-square-o{
+    color: #000;
+}
+
 .homepage{
     color: rgb(255, 255, 255);
     font-size: 1.5rem;
