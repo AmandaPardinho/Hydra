@@ -112,6 +112,10 @@
     color: rgb(255, 255, 255);
 }
 
+.contact{
+    text-decoration-style: none;
+}
+
 .image-footer{
     background-color: rgba(255, 255, 255, 01);
     width: 2.5rem;
