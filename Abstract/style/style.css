@@ -117,7 +117,16 @@
 }
 
 .contact{
-    text-decoration-style: nones;
+    text-decoration: none;
+}´
+
+.email:link{
+    color: rgb(255, 255, 255);
+    text-decoration: none;   
+}
+
+.email:hover{
+    text-decoration: underline;
 }
 
 .image-footer{
@@ -129,9 +138,9 @@
 
 .mobile-btn-blue{
     background-color: rgb(76, 95,213);
-    width: 5rem;
+    width: 7rem;
     height: 3rem;
     font-size: 1.1rem;    
     color: rgb(255, 255, 255);
-    border-radius: 1.75rem;
+    border-radius: 1.6rem;
 }
