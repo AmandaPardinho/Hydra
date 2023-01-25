@@ -29,6 +29,7 @@ function mapImageList(){
             "path": "./pictures/wtf.jpg"
         },
     ]
+    return memesObject;
 }
 
 function createGallery(){
