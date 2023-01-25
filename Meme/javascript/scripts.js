@@ -1,4 +1,4 @@
-function mapImageList(){
+async function mapImageList(){
     const memesObject = [
         {
             "name": "chapolin",
@@ -32,8 +32,14 @@ function mapImageList(){
     return memesObject;
 }
 
-function createGallery(){
-
+async function createGallery(imageList){
+    const memeSelector = document.querySelector("#memes-list");
+    imageList.forEach(picture => {
+        let newOption = document.createElement("option");
+        newOption.text = picture.name.toUpperCase();
+        newOption.value = picture.path;
+        memeSelector.appendChild(newOption);
+    });
 }
 
 function main(){
