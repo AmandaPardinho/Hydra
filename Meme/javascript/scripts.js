@@ -2,11 +2,11 @@ async function mapImageList(){
     const memesObject = [
         {
             "name": "chapolin",
-            "path": "./pictures/chapolin.jpg"
+            "path": ".pictures/chapolin.jpg"
         },
         {
             "name": "chloe",
-            "path": "./pictures/chloe.jpg"
+            "path": "pictures/chloe.jpg"
         },
         {
             "name": "computer-reaction",
@@ -26,7 +26,7 @@ async function mapImageList(){
         },
         {
             "name": "wtf",
-            "path": "./pictures/wtf.jpg"
+            "path": "pictures/wtf.jpg"
         },
     ]
     return memesObject;
@@ -42,8 +42,9 @@ async function createGallery(imageList){
     });
 }
 
-function main(){
-
+async function main(){
+    const memesImageList = await mapImageList();
+    await createGallery(memesImageList);
 }
 
 main();
