@@ -26,7 +26,7 @@ async function mapImageList(){
         },
         {
             "name": "wtf",
-            "path": "../pictures/wtf.png"
+            "path": "/pictures/wtf.png"
         },
     ]
     return memesObject;
