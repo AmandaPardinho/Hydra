@@ -9,7 +9,7 @@ function enablePhotoUpload(){
             document.querySelector("#display-image").style.backgroundImage = `url(${uploadImage})`;
         });
         reader.readAsDataURL(this.files[0]);
-    })
+    });
 }
 
 async function mapImageList(){
